@@ -14,7 +14,7 @@ on:
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'Pixel'
+        default: 'pixel'
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
