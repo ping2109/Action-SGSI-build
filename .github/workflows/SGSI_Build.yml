@@ -87,7 +87,6 @@ jobs:
           cd $GITHUB_WORKSPACE/Tool-SGSI-build
           pwd
           ls
-          cat SGSI/刷机教程.txt
           zip -r ${{ github.event.inputs.REPACK_NAME }} SGSI/*
           ls "${{ github.event.inputs.REPACK_NAME }}"
           echo "--------------------------------------"
