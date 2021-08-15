@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://downloads.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv12/xiaomi.eu_multi_MI10_V12.5.6.0.RJBCNXM_v12-11.zip?ts=gAAAAABhGH6IIxni0jTXysmHzkPmagwJ9ARGtLvAScRmeMlYXI_b4JJTf_Q7T2eL9Tep9uZI3VqQuzSHMFh4BZ0JhqverR7L1w%3D%3D&use_mirror=nchc&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fxiaomi-eu-multilang-miui-roms%2Ffiles%2Fxiaomi.eu%2FMIUI-STABLE-RELEASES%2FMIUIv12%2F'
+        default: 'https://dl.google.com/developers/android/sc/images/factory/bonito-spb4.210715.011-factory-9df431da.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -14,11 +14,11 @@ on:
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'miui'
+        default: 'Pixel'
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'MIUI12_11_SGSI.zip'
+        default: 'Pixel_3aXL_12_SGSI.zip'
 
 
 
