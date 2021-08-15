@@ -10,7 +10,7 @@ on:
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'update.zip'
+        default: 'bonito-spb4.210715.011-factory-9df431da.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
