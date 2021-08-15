@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://ip2341096666.out.azhimalayanvh.com/Firmware/Flyme/meizu18_Pro/9.0.1.2/cn/20210527000410/acc3dace/update.zip?ali_redirect_domain=firmware.meizu.com'
+        default: 'https://downloads.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv12/xiaomi.eu_multi_MI10_V12.5.6.0.RJBCNXM_v12-11.zip?ts=gAAAAABhGH6IIxni0jTXysmHzkPmagwJ9ARGtLvAScRmeMlYXI_b4JJTf_Q7T2eL9Tep9uZI3VqQuzSHMFh4BZ0JhqverR7L1w%3D%3D&use_mirror=nchc&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fxiaomi-eu-multilang-miui-roms%2Ffiles%2Fxiaomi.eu%2FMIUI-STABLE-RELEASES%2FMIUIv12%2F'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -14,11 +14,11 @@ on:
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'flyme'
+        default: 'miui'
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'Flyme9_18P_SGSI.zip'
+        default: 'MIUI12_11_SGSI.zip'
 
 
 
@@ -51,7 +51,7 @@ jobs:
 
       - name: 获取SGSI工具...
         run: |
-          git clone --recurse-submodules https://github.com/xiaoxindada/SGSI-build-tool.git -b 11 $GITHUB_WORKSPACE/Tool-SGSI-build
+          git clone --recurse-submodules https://github.com/ping2109/SGSI-build-tool.git -b 11 $GITHUB_WORKSPACE/Tool-SGSI-build
 
       - name: 替换自定义精简内容...
         run: |
